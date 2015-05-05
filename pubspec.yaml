@@ -1,9 +1,12 @@
 name: dart_codecov
-version: 0.0.0
+version: 0.1.0
 description: Send coverage reports to codecov.io. Designed to run on travis-ci.
+authors:
+  - Evan Weible <ekweible@gmail.com>
+homepage: https://github.com/ekweible/dart_codecov
 dependencies:
   args: '>=0.13.0 <0.14.0'
-  logging: '>=0.10.0 <0.11.0'
+  logging: '>=0.9.0 <0.11.0'
 dev_dependencies:
   coverage:
     git:
@@ -14,7 +17,5 @@ dev_dependencies:
       url: https://github.com/ekweible/dart_codecov_generator.git
       ref: master
   test: '>=0.12.0 <0.13.0'
-dependency_overrides:
-  logging: '>=0.10.0 <0.11.0'
 executables:
   dart_codecov:
