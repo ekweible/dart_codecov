@@ -1,5 +1,5 @@
 name: dart_codecov
-version: 0.0.0
+version: 0.1.0
 description: Send coverage reports to codecov.io. Designed to run on travis-ci.
 dependencies:
   args: '>=0.13.0 <0.14.0'
