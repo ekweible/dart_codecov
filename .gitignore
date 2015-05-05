@@ -1,0 +1,6 @@
+.pub
+packages
+pubspec.lock
+
+coverage_report
+coverage.lcov
